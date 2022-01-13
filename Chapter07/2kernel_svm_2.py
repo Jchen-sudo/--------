@@ -18,7 +18,7 @@ olivetti_home = ''
 if __name__ == '__main__':
     # Load dataset
 
-    faces = fetch_olivetti_faces(data_home=olivetti_home)
+    faces = fetch_olivetti_faces(data_home='/data/')
     # Define a param grid
     param_grid = [
         {
